@@ -1,0 +1,75 @@
+/*===============
+body styles
+===============*/
+body {
+  display: block;
+}
+
+/*===============
+paragraph styles
+===============*/
+p {
+  color: red;
+  display: block;
+}
+
+/*===============
+header styles
+===============*/
+
+header {
+  display: block;
+}
+
+/*===============
+list stylesheet
+===============*/
+
+li {
+  display: block;
+  float: left;
+  padding: 20px;
+}
+
+li a {
+  font-size: 30px;
+  padding: 10px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+/*===============
+nav styles
+===============*/
+
+nav a:hover:active {
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  border-bottom: 2px solid blue;
+  background-color: #E8E8E8;
+  border-radius: 10%;
+  color: #30AD0B;
+  text-decoration: none;
+}
+
+/*===============
+img styles
+===============*/
+img#logo {
+  float: left;
+  width: 9em;
+}
+
+img#indexpage {
+  width: 45em;
+}
+
+
+section {
+  display: block;
+}
